@@ -6,9 +6,11 @@ body {
 }
 h1 {
   opacity: 0.8;
+  text-transform: capitalize;
 }
+
 .container {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.94);
   max-width: 700px;
   margin-top: 20px;
   border: solid 1px rgb(232, 224, 224);
@@ -34,12 +36,17 @@ h1 {
   opacity: 0.75;
   font-size: 17px;
 }
+.Conditions strong {
+  opacity: 0.85;
+}
 .Overview li {
   list-style: none;
   margin-left: -30px;
   font-size: 17px;
   opacity: 0.75;
+  text-transform: capitalize;
 }
+
 .Footer {
   margin-top: 10px;
 }
