@@ -54,16 +54,22 @@ function App() {
           </div>
         </div>
       </div>
-      <p className="Footer">
-        Coded by Endija Mathur
-        <br />
-        <small>
-          <a href="https://www.freepik.com/free-vector/early-morning-scenery-seascape-lonely-wooden-boat_17676504.htm#query=illustrations%20nature&position=49&from_view=search&track=sph">
-            Image by upklyak
-          </a>{" "}
-          on Freepik
-        </small>
-      </p>
+
+      <div className="Footer">
+        <p>
+          This is an{" "}
+          <a href="https://github.com/EndijaM/react-weather-app">
+            open-source code
+          </a>
+          , hosted on
+          <a href="https://benevolent-entremet-723e8f.netlify.app/">
+            {" "}
+            Netlify{" "}
+          </a>
+          <br />
+          and is coded by <strong>Endija Mathur</strong>
+        </p>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/889/original/6543826.jpg?1671094411);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/787/original/andrew-ridley-jR4Zf-riEjI-unsplash_%281%29.jpg?1671547637);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 10px;
@@ -9,7 +9,7 @@ h1 {
   opacity: 0.8;
 }
 .container {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.9);
   max-width: 700px;
   margin-top: 20px;
   border: solid 1px rgb(232, 224, 224);
@@ -41,16 +41,15 @@ h1 {
   font-size: 17px;
   opacity: 0.75;
 }
-p {
+.Footer {
+  margin-top: 10px;
+}
+.Footer p {
   color: white;
   font-weight: 500;
   text-align: center;
+  line-height: 1.7;
 }
-small {
-  font-weight: 100;
-  opacity: 0.6;
-}
-small a {
+.Footer a {
   color: white;
-  opacity: 0.7;
 }
