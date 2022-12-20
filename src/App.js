@@ -58,11 +58,17 @@ function App() {
       <div className="Footer">
         <p>
           This is an{" "}
-          <a href="https://github.com/EndijaM/react-weather-app">
+          <a
+            href="https://github.com/EndijaM/react-weather-app"
+            target="_blank"
+          >
             open-source code
           </a>
           , hosted on
-          <a href="https://benevolent-entremet-723e8f.netlify.app/">
+          <a
+            href="https://benevolent-entremet-723e8f.netlify.app/"
+            target="_blank"
+          >
             {" "}
             Netlify{" "}
           </a>
