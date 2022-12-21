@@ -94,6 +94,7 @@ export default function Weather(props) {
           <a
             href="https://github.com/EndijaM/react-weather-app"
             target="_blank"
+            rel="noreferrer"
           >
             open-source code
           </a>
@@ -101,6 +102,7 @@ export default function Weather(props) {
           <a
             href="https://benevolent-entremet-723e8f.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Netlify{" "}
