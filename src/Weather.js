@@ -7,8 +7,9 @@ export default function Weather(props) {
   const [weather, setWeather] = useState("");
   const [update, setUpdate] = useState(false);
 
+  console.log(update);
+
   function displayWeather(response) {
-    setUpdate(true);
     setWeather({
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
@@ -16,6 +17,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: ` http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
+    setUpdate(true);
   }
 
   function handleSubmit(event) {
@@ -34,6 +36,7 @@ export default function Weather(props) {
     event.preventDefault();
     setCity(event.target.value);
   }
+
   return (
     <div>
       <div className="container">
@@ -94,7 +97,7 @@ export default function Weather(props) {
           <a
             href="https://github.com/EndijaM/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-source code
           </a>
@@ -102,7 +105,7 @@ export default function Weather(props) {
           <a
             href="https://benevolent-entremet-723e8f.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {" "}
             Netlify{" "}
